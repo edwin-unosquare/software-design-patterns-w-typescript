@@ -2,10 +2,11 @@
   "name": "design-patterns_js-ts",
   "version": "1.0.0",
   "description": "Practicing Design Patterns in JS and TS (may include Unit Tests)",
-  "main": "index.js",
+  "main": "src/index.ts",
   "types": "build/index.d.ts",
   "scripts": {
-    "start:dev": "ts-node index.ts",
+    "start:local": "node ./build/index.js",
+    "start:dev": "nodemon",
     "build": "tsc"
   },
   "keywords": [
