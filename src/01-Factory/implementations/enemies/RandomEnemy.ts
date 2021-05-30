@@ -1,4 +1,4 @@
-import { Enemy } from "../../entities/Enemy";
+import { Enemy } from "../../entities/interfaces/Enemy";
 
 export class RandomEnemy implements Enemy {
 

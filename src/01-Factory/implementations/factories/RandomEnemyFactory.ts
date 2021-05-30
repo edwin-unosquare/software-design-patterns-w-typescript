@@ -1,4 +1,4 @@
-import { Enemy } from "../../entities/Enemy";
+import { Enemy } from "../../entities/interfaces/Enemy";
 import { EnemyFactory } from "../../entities/interfaces/EnemyFactory";
 import { RandomEnemy } from "../enemies/RandomEnemy";
 

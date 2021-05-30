@@ -1,4 +1,4 @@
-import { Enemy } from "../Enemy";
+import { Enemy } from "./Enemy";
 
 export interface EnemyFactory {
   createEnemy(name: string): Enemy;
